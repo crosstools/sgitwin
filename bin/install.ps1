@@ -23,3 +23,5 @@ if ([System.Enum]::GetNames([System.Net.SecurityProtocolType]) -notcontains 'Tls
     Write-Output "https://www.microsoft.com/net/download"
     break
 }
+
+
