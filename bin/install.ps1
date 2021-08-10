@@ -24,4 +24,4 @@ if ([System.Enum]::GetNames([System.Net.SecurityProtocolType]) -notcontains 'Tls
     break
 }
 
-
+Write-Output "Test"
